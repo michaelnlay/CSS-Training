@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+
+}
+
+.box1{
+position:absolute;
+background:green;
+height:50px;
+width:80px;
+top:70px;
+left:280px;
+z-index:2}
+
+.box2{
+position:absolute;
+background:blue;
+height:100px;
+width:100px;
+top:40px;
+left:0px;
+z-index:-1}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<img src="./26d71bf813767fa3ae3482e0080e7784bf897dc4.png">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+<div class="box1">box1</div>
+<div class="box2">box2</div>
+</body>
+</html>
